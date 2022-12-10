@@ -1,0 +1,112 @@
+git hub Account
+
+
+
+1. login github account
+2. create Repo
+3. eclipse ..> search box(perspective) ...> git repositories...> open clone repo
+..>paste repo url lik in window + authentication ....>
+
+*********************************************************
+git bash
+
+
+working directory....>Stagging Directory......>local repostories||...> remote repo
+
+Commands
+
+$ ls := show folder or file list avaiable in current directory
+$ clear := clear the git bush work space
+$ pwd := show the current working directory
+$ git --version  := show the current git version
+$ cd folder name := enter the inside the project
+$ git init := it will intialize(create) new empty repo in current directory(.git)(local repo)
+$git status := show the status
+$ git log := show how manny commit commands done ealier
+$ cat File name.File extension := show what is inside in file
+
+*****************************************************************
+ 
+1. Add file from working directory to stagging Area
+
+$ git add -a := add all the files
+$ git file name . file Extension := add specifice file
+$ git add . * := if file extension is same then add all of them
+
+--------------------------------------------------------
+
+2. Add file from stagging Area directory to local repo
+
+before adding we must set configuration with repo and it can only applicable for first time
+
+$ git config --global user.email "git hub mail id" := set git hub mail id with repo 
+$ git config --global user.name "git hub user name" := set git hub name with repo 
+---------------------------------------------------------------------------------------
+
+$ git commit -m " msg " := this will helps us move files from stagging Area to local repo
+
+*************************************************************************************
+After any modification files
+
+$ git commit -a -m " msg" := it will only work over modification files and add from work directory to stagging area and stagging area to local repo
+
+******************************************************
+
+ 
+1. working dir.....> stagging....> local repo.....> remote repo 
+ 
+req 1:  To see the difference in file content between working directory and stagging area
+
+$ git diff fileName. file extension 
+
+
+
+------------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------
+
+
+
+*********************************************************
+
+*****GIT RM*********
+
+
+*********************************************************************************
+
+
+
+******************************************************************************************
+
+
+**********************************************************************************
+
+
+**************************************************************************************
+
+*********************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
